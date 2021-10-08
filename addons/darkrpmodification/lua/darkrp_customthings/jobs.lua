@@ -1421,6 +1421,24 @@ TEAM_ICT = DarkRP.createJob("CT", {
     category = "CT",
 })
 
+--PRIV JOB--
+TEAM_GEN1 = DarkRP.createJob("Generał Grievous", {
+    color = Color(161, 46, 0, 255),
+    model = {
+        "models/tfa/comm/gg/pm_sw_grievous_nocloak.mdl",
+    },
+    description = [[Dowódca Konfederacji Systemów Niezależnych (Separatystów)]],
+    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "weapon_lightsaber", "rw_sw_relbyk23"},
+    command = "gengrivu",
+    max = 1,
+    salary = GAMEMODE.Config.normalsalary,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Priv job",
+})
+
 ---TEAM_POLICE = DarkRP.createJob("Civil Protection", {
   --  color = Color(25, 25, 170, 255),
   --  model = {"models/player/police.mdl", "models/player/police_fem.mdl"},
@@ -1828,6 +1846,15 @@ DarkRP.createCategory{
 
 DarkRP.createCategory{
     name = "Jedi",
+    categorises = "jobs",
+    startExpanded = false,
+    color = Color(0, 107, 0, 255),
+    canSee = fp{fn.Id, true},
+    sortOrder = 13,
+}
+
+DarkRP.createCategory{
+    name = "Priv job",
     categorises = "jobs",
     startExpanded = false,
     color = Color(0, 107, 0, 255),
