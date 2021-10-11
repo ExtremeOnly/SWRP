@@ -75,6 +75,7 @@ TEAM_KOMANDOR = DarkRP.createJob("Dowódca 327th", {
     color = Color(207, 200, 4, 255),
     model = {
         "models/jajoff/sps/327/tc13j/bly.mdl",
+		"models/jajoff/sps/327/tc13j/officer_engineer.mdl",
     },
     description = [[327. Korpus Gwiezdny jest korpusem wojskowym Wielkiej Armii Republiki, złożonym z żołnierzy-klonów wyhodowanych do walki dla Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -91,7 +92,8 @@ TEAM_KOMANDOR = DarkRP.createJob("Dowódca 327th", {
 TEAM_OFICERWYK = DarkRP.createJob("Oficer Wykonawczy 327th", {
     color = Color(207, 200, 4, 255),
     model = {
-        "models/jajoff/sps/cta/tc13j/cc.mdl",
+        "models/jajoff/sps/327/tc13j/officer.mdl",
+		"models/jajoff/sps/327/tc13j/engineer.mdl",
     },
     description = [[327. Korpus Gwiezdny jest korpusem wojskowym Wielkiej Armii Republiki, złożonym z żołnierzy-klonów wyhodowanych do walki dla Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -109,6 +111,7 @@ TEAM_OPIEKUNMED = DarkRP.createJob("Opiekun Medyków 327th", {
     color = Color(207, 200, 4, 255),
     model = {
         "models/jajoff/sps/327/tc13j/Officer_medic.mdl",
+		"models/jajoff/sps/327/tc13j/officer_engineer.mdl",
     },
     description = [[327. Korpus Gwiezdny jest korpusem wojskowym Wielkiej Armii Republiki, złożonym z żołnierzy-klonów wyhodowanych do walki dla Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -143,6 +146,7 @@ TEAM_OPPIL = DarkRP.createJob("Opiekun Pilotów 327th", {
     color = Color(207, 200, 4, 255),
     model = {
         "models/jajoff/sps/327/tc13j/officer_pilot.mdl",
+		"models/jajoff/sps/327/tc13j/engineer.mdl",
     },
     description = [[327. Korpus Gwiezdny jest korpusem wojskowym Wielkiej Armii Republiki, złożonym z żołnierzy-klonów wyhodowanych do walki dla Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -160,6 +164,7 @@ TEAM_MEDIC327 = DarkRP.createJob("Medyk 327th", {
     color = Color(207, 200, 4, 255),
     model = {
         "models/jajoff/sps/327/tc13j/medic.mdl",
+		"models/jajoff/sps/327/tc13j/engineer.mdl",
     },
     description = [[327. Korpus Gwiezdny jest korpusem wojskowym Wielkiej Armii Republiki, złożonym z żołnierzy-klonów wyhodowanych do walki dla Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -177,6 +182,7 @@ TEAM_PILOT327 = DarkRP.createJob("Pilot 327th", {
     color = Color(207, 200, 4, 255),
     model = {
         "models/jajoff/sps/327/tc13j/pilot.mdl",
+		"models/jajoff/sps/327/tc13j/engineer.mdl",
     },
     description = [[327. Korpus Gwiezdny jest korpusem wojskowym Wielkiej Armii Republiki, złożonym z żołnierzy-klonów wyhodowanych do walki dla Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -194,6 +200,7 @@ TEAM_PIECH = DarkRP.createJob("Piechur 327th", {
     color = Color(207, 200, 4, 255),
     model = {
         "models/jajoff/sps/327/tc13j/trooper.mdl",
+		"models/jajoff/sps/327/tc13j/engineer.mdl",
     },
     description = [[327. Korpus Gwiezdny jest korpusem wojskowym Wielkiej Armii Republiki, złożonym z żołnierzy-klonów wyhodowanych do walki dla Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -227,7 +234,8 @@ TEAM_INZCH = DarkRP.createJob("Inżynier 327th", {
 TEAM_ARC327 = DarkRP.createJob("ARC 327th", {
     color = Color(207, 200, 4, 255),
     model = {
-        "models/jajoff/sps/327/tc13j/engineer.mdl",
+        "models/jajoff/sps/327/tc13j/arc.mdl",
+		"models/jajoff/sps/327/tc13j/engineer.mdl",
     },
     description = [[327. Korpus Gwiezdny jest korpusem wojskowym Wielkiej Armii Republiki, złożonym z żołnierzy-klonów wyhodowanych do walki dla Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -261,7 +269,7 @@ TEAM_AAYLA327 = DarkRP.createJob("Aayla Secura", {
 TEAM_MEDST = DarkRP.createJob("Medyk 1ST", {
     color = Color(2, 64, 247, 255),
     model = {
-        "models/jajoff/sps/myt/tc13j/paratrooper_medic.mdl",
+        "models/jajoff/sps/myt/tc13j/medic.mdl",
     },
     description = [[Pierwszy Legion jest elitarnym legionem szturmowców w siłach zbrojnych Imperium Galaktycznego.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -346,7 +354,7 @@ TEAM_OFP1ST = DarkRP.createJob("Oficer pilot 1ST", {
 TEAM_OFW1ST = DarkRP.createJob("Oficer wykonawczy 1ST", {
     color = Color(2, 64, 247, 255),
     model = {
-        "models/jajoff/sps/327/tc13j/officer_instructor.mdl",
+        "models/jajoff/sps/myt/tc13j/officer.mdl",
     },
     description = [[Pierwszy Legion jest elitarnym legionem szturmowców w siłach zbrojnych Imperium Galaktycznego.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -380,7 +388,7 @@ TEAM_OFHH1ST = DarkRP.createJob("Oficer heavy 1ST", {
 TEAM_OFMM1ST = DarkRP.createJob("Oficer medyk 1ST", {
     color = Color(2, 64, 247, 255),
     model = {
-        "models/jajoff/sps/myt/tc13j/Officer_paratrooper_medic.mdl",
+        "models/jajoff/sps/myt/tc13j/Officer_medic.mdl",
     },
     description = [[Pierwszy Legion jest elitarnym legionem szturmowców w siłach zbrojnych Imperium Galaktycznego.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -414,7 +422,7 @@ TEAM_DOW1ST = DarkRP.createJob("Dowódca 1ST", {
 TEAM_ARC1ST = DarkRP.createJob("ARC 1ST", {
     color = Color(2, 64, 247, 255),
     model = {
-        "models/jajoff/sps/myt/tc13j/arc_barc.mdl",
+        "models/jajoff/sps/myt/tc13j/arc.mdl",
     },
     description = [[Pierwszy Legion jest elitarnym legionem szturmowców w siłach zbrojnych Imperium Galaktycznego.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -499,8 +507,7 @@ TEAM_RECO501 = DarkRP.createJob("Rekrut oddziałowy 501th", {
 TEAM_OFC501 = DarkRP.createJob("Oficer 501th", {
     color = Color(163, 0, 14, 255),
     model = {
-        "models/jajoff/sps/501/tc13j/officer_instructor.mdl",
-        "models/jajoff/sps/327/tc13j/jedi.mdl",
+        "models/jajoff/sps/501/tc13j/instructor.mdl",
     },
     description = [[Batalion Klonów legion poprzedzał Imperium Galaktyczne byli znani ze swojej odwagi, niekonwencjonalnej taktyki i lojalności wobec Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -517,7 +524,7 @@ TEAM_OFC501 = DarkRP.createJob("Oficer 501th", {
 TEAM_OFW501 = DarkRP.createJob("Oficer wykonawczy 501th", {
     color = Color(163, 0, 14, 255),
     model = {
-        "models/jajoff/sps/custom/tc13j/axelszambiarz.mdl",
+        "models/jajoff/sps/501/tc13j/officer_instructor.mdl",
     },
     description = [[Batalion Klonów legion poprzedzał Imperium Galaktyczne byli znani ze swojej odwagi, niekonwencjonalnej taktyki i lojalności wobec Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -602,7 +609,7 @@ TEAM_OFM501 = DarkRP.createJob("Oficer medyk 501th", {
 TEAM_ARC501 = DarkRP.createJob("ARC 501th", {
     color = Color(163, 0, 14, 255),
     model = {
-        "models/jajoff/sps/327/tc13j/engineer.mdl",
+        "models/jajoff/sps/501/tc13j/arc.mdl",
     },
     description = [[Batalion Klonów legion poprzedzał Imperium Galaktyczne byli znani ze swojej odwagi, niekonwencjonalnej taktyki i lojalności wobec Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -723,7 +730,7 @@ TEAM_RAACG = DarkRP.createJob("Rekrut CG", {
 TEAM_OFCG = DarkRP.createJob("Oficer CG", {
     color = Color(0, 163, 125, 255),
     model = {
-        "models/krristof/91st/Officer/Officer.mdl",
+        "models/jajoff/sps/CGA/tc13j/officer_instructor.mdl",
     },
     description = [[Coruscant Guard była oddziałem elitarnych żołnierzy uderzeniowych klonów Wielkiej Armii Republiki]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -740,7 +747,7 @@ TEAM_OFCG = DarkRP.createJob("Oficer CG", {
 TEAM_OFWCG = DarkRP.createJob("Oficer wykonawczy CG", {
     color = Color(0, 163, 125, 255),
     model = {
-        "models/krristof/91st/EXO/EXO.mdl",
+        "models/jajoff/sps/CGA/tc13j/officer.mdl",
     },
     description = [[Coruscant Guard była oddziałem elitarnych żołnierzy uderzeniowych klonów Wielkiej Armii Republiki]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -876,7 +883,7 @@ TEAM_ARCCG = DarkRP.createJob("ARC CG", {
 TEAM_DOW41 = DarkRP.createJob("Dowódca 41ST", {
     color = Color(214, 203, 0, 255),
     model = {
-        "models/jajoff/sps/327/tc13j/engineer.mdl",
+        "models/salty/TC13-41stCMD.mdl",
     },
     description = [[41. Korpus Elitarny, znany po prostu jako Elite Corps, jest korpusem wojskowym Wielkiej Armii Republiki.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -893,7 +900,7 @@ TEAM_DOW41 = DarkRP.createJob("Dowódca 41ST", {
 TEAM_OOO41 = DarkRP.createJob("Oficer wykonawczy 41ST", {
     color = Color(101, 140, 0, 255),
     model = {
-        "models/jajoff/sps/327/tc13j/engineer.mdl",
+        "models/salty/TC13-41stOfficer.mdl",
     },
     description = [[41. Korpus Elitarny, znany po prostu jako Elite Corps, jest korpusem wojskowym Wielkiej Armii Republiki.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -910,7 +917,7 @@ TEAM_OOO41 = DarkRP.createJob("Oficer wykonawczy 41ST", {
 TEAM_SNIPER41 = DarkRP.createJob("Snajper 41ST", {
     color = Color(101, 140, 0, 255),
     model = {
-        "models/jajoff/sps/327/tc13j/engineer.mdl",
+        "models/player/gideon/greencompany/sniper/41stgc_scout_sniper.mdl",
     },
     description = [[41. Korpus Elitarny, znany po prostu jako Elite Corps, jest korpusem wojskowym Wielkiej Armii Republiki.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -927,7 +934,7 @@ TEAM_SNIPER41 = DarkRP.createJob("Snajper 41ST", {
 TEAM_ZW41 = DarkRP.createJob("Zwiadowca 41ST", {
     color = Color(101, 140, 0, 255),
     model = {
-        "models/jajoff/sps/327/tc13j/engineer.mdl",
+        "models/player/gideon/greencompany/support/41stgc_scout_support.mdl",
     },
     description = [[41. Korpus Elitarny, znany po prostu jako Elite Corps, jest korpusem wojskowym Wielkiej Armii Republiki.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -961,7 +968,7 @@ TEAM_PL41 = DarkRP.createJob("Pilot 41ST", {
 TEAM_ARC41 = DarkRP.createJob("ARC 41ST", {
     color = Color(101, 140, 0, 255),
     model = {
-        "models/jajoff/sps/327/tc13j/engineer.mdl",
+        "models/player/gideon/greencompany/arc/41stgc_arc.mdl",
     },
     description = [[41. Korpus Elitarny, znany po prostu jako Elite Corps, jest korpusem wojskowym Wielkiej Armii Republiki.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -1008,7 +1015,7 @@ TEAM_BAR41 = DarkRP.createJob("Barriss Offee", {
     candemote = false,
     category = "41st",
 })
-
+-- 91 ST --
 TEAM_MAC91 = DarkRP.createJob("Mace Windu", {
     color = Color(101, 140, 0, 255),
     model = {
@@ -1420,6 +1427,106 @@ TEAM_ICT = DarkRP.createJob("CT", {
     candemote = false,
     category = "CT",
 })
+--- SEPARATYŚCI --- 
+
+TEAM_D1B = DarkRP.createJob("Droid B1", {
+    color = Color(161, 46, 0, 255),
+    model = {
+        "models/eng_co/pm_droid_b1_eng_co.mdl",
+    },
+    description = [[Podstawowe Siły Separatystów]],
+    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "dradio", "rw_sw_e5bx"},
+    command = "wb21b",
+    max = 10,
+    salary = GAMEMODE.Config.normalsalary,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Separatyści",
+})
+
+TEAM_D1BOFC = DarkRP.createJob("Oficer Droidów B1", {
+    color = Color(161, 46, 0, 255),
+    model = {
+        "models/eng_pvt/pm_droid_b1_eng_pvt.mdl",
+    },
+    description = [[Oficer Podstawowych Sił Separatystów]],
+    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "dradio", "rw_sw_e5bx"},
+    command = "wb21bocf",
+    max = 1,
+    salary = GAMEMODE.Config.normalsalary,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Separatyści",
+})
+
+TEAM_DBX12 = DarkRP.createJob("Droid BX", {
+    color = Color(161, 46, 0, 255),
+    model = {
+        "models/bx_pvt/pm_droid_bx_pvt.mdl",
+    },
+    description = [[Komandosi Separatystów]],
+    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "dradio", "rw_sw_e5bx"},
+    command = "wb2234234",
+    max = 3,
+    salary = GAMEMODE.Config.normalsalary,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Separatyści",
+	PlayerSpawn = function(ply)
+        ply:SetMaxHealth(125)
+        ply:SetHealth(125)
+        ply:SetArmor(0)
+        ply:SetBodygroup(0, 1)
+        ply:SetBodygroup(1, 2)
+    end
+})
+
+TEAM_OFCDBX12 = DarkRP.createJob("Oficer Droid BX", {
+    color = Color(161, 46, 0, 255),
+    model = {
+        "models/bx_senate/pm_droid_bx_senate.mdl",
+    },
+    description = [[Oficer Komandosów Separatystów]],
+    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "dradio", "rw_sw_e5bx"},
+    command = "wb2343423",
+    max = 1,
+    salary = GAMEMODE.Config.normalsalary,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Separatyści",
+	PlayerSpawn = function(ply)
+        ply:SetMaxHealth(150)
+        ply:SetHealth(150)
+        ply:SetArmor(0)
+        ply:SetBodygroup(0, 1)
+        ply:SetBodygroup(1, 2)
+    end
+})
+
+TEAM_OFCDBX12 = DarkRP.createJob("Droid Taktyczny", {
+    color = Color(161, 46, 0, 255),
+    model = {
+        "models/super_tactical_stuxnet/pm_droid_tactical_stuxnet.mdl",
+    },
+    description = [[Taktyczne siły Separatystów]],
+    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "dradio", "rw_sw_e5bx"},
+    command = "wb234",
+    max = 2,
+    salary = GAMEMODE.Config.normalsalary,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Separatyści",
+})
 
 --PRIV JOB--
 TEAM_GEN1 = DarkRP.createJob("Generał Grievous", {
@@ -1427,9 +1534,26 @@ TEAM_GEN1 = DarkRP.createJob("Generał Grievous", {
     model = {
         "models/tfa/comm/gg/pm_sw_grievous_nocloak.mdl",
     },
-    description = [[Dowódca Konfederacji Systemów Niezależnych (Separatystów)]],
-    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "weapon_lightsaber", "rw_sw_relbyk23"},
+    description = [[Dowódca Konfederacji Systemów Niezależnych (Separatystów) (Praca: Cyan#0710)]],
+    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "weapon_lightsaber", "rw_sw_relbyk23", "dradio"},
     command = "gengrivu",
+    max = 1,
+    salary = GAMEMODE.Config.normalsalary,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Priv job",
+})
+
+TEAM_DEZZ = DarkRP.createJob("AFA ARC Dezz", {
+    color = Color(161, 46, 0, 255),
+    model = {
+        "models/jajoff/sps/arc/tc13j/whites.mdl",
+    },
+    description = [[Jest to żołnierz republiki w jednostce AFA ARC (Praca filiorx yt#9706)]],
+    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "jet_mk5", "rw_sw_dc17m", "rw_sw_westarm5", "rw_sw_shield_rep_dc17"},
+    command = "gafaarcdez",
     max = 1,
     salary = GAMEMODE.Config.normalsalary,
     admin = 0,
@@ -1595,12 +1719,43 @@ TEAM_GEN1 = DarkRP.createJob("Generał Grievous", {
 --    category = "Citizens",
 --}) 
 
+TEAM_ZARZAD = DarkRP.createJob("Zarząd", {
+    color = Color(255, 0, 0, 250),
+	model = {
+        "models/kerry/suit_cit/male_02.mdl",
+		"models/kerry/suit_cit/male_04.mdl",
+		"models/kerry/suit_cit/male_05.mdl",
+		"models/kerry/suit_cit/male_06.mdl",
+		"models/kerry/suit_cit/male_07.mdl",
+		"models/kerry/suit_cit/male_08.mdl",
+		"models/kerry/suit_cit/male_09.mdl",
+		"models/vj_darkmessiah/spider_regular.mdl",
+    },
+    description = [[Jest to Zarząd serwera który wykonuje swoje obowiązki najlepiej mu nie przeszkadzać]],
+    weapons = {"arrest_stick", "door_ram", "stunstick", "gmod_tool"},
+    command = "Azarzada",
+    max = 3,
+    salary = 1000,
+    admin = 1,
+    vote = false,
+    hasLicense = true,
+    candemote = true,
+	mayor = true,
+    category = "Administracja serwera",
+	PlayerSpawn = function(ply)
+        ply:SetMaxHealth(900000)
+        ply:SetHealth(900000)
+        ply:SetArmor(9000)
+        ply:SetBodygroup(0, 1)
+        ply:SetBodygroup(1, 2)
+    end
+})
+
 TEAM_ADMIN = DarkRP.createJob("Admin", {
     color = Color(255, 0, 0, 250),
 	model = {
-        "models/gonzo/battlelordsskins/red/redbattlelord1.mdl",
-		"models/gonzo/battlelordsskins/red/redbattlelord2.mdl",
-		"models/gonzo/battlelordsskins/red/redbattlelord3.mdl",
+        "models/kerry/red_cit/male_02.mdl",
+		"models/vj_darkmessiah/spider_regular.mdl",
     },
     description = [[Jest to Administracja serwer obecna do pomocy inaczej AdminOnDuty]],
     weapons = {"arrest_stick", "door_ram", "stunstick", "gmod_tool"},
@@ -1625,14 +1780,13 @@ TEAM_ADMIN = DarkRP.createJob("Admin", {
 TEAM_MOD = DarkRP.createJob("Mod", {
     color = Color(255, 0, 0, 250),
 	model = {
-        "models/gonzo/battlelordsskins/green/greenbattlelord1.mdl",
-		"models/gonzo/battlelordsskins/green/greenbattlelord2.mdl",
-		"models/gonzo/battlelordsskins/green/greenbattlelord3.mdl",
+        "models/kerry/red_cit/male_02.mdl",
+		"models/vj_darkmessiah/spider_regular.mdl",
     },
     description = [[Jest to Moderator serwer obecna do pomocy inaczej ModOnDuty]],
     weapons = {"arrest_stick", "stunstick", "gmod_tool"},
     command = "Mody",
-    max = 4,
+    max = 5,
     salary = 1000,
     admin = 1,
     vote = false,
@@ -1854,12 +2008,21 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
+    name = "Separatyści",
+    categorises = "jobs",
+    startExpanded = false,
+    color = Color(0, 107, 0, 255),
+    canSee = fp{fn.Id, true},
+    sortOrder = 14,
+}
+
+DarkRP.createCategory{
     name = "Priv job",
     categorises = "jobs",
     startExpanded = false,
     color = Color(0, 107, 0, 255),
     canSee = fp{fn.Id, true},
-    sortOrder = 13,
+    sortOrder = 15,
 }
 
 DarkRP.createCategory{
