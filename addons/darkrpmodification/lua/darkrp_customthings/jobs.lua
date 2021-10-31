@@ -439,7 +439,7 @@ TEAM_ARC1ST = DarkRP.createJob("ARC 1ST", {
 TEAM_MED501 = DarkRP.createJob("Medyk 501th", {
     color = Color(163, 0, 14, 255),
     model = {
-        "models/jajoff/sps/501/tc13j/medic.mdl",
+        "models/jajoff/sps/501/medic.mdl",
     },
     description = [[Batalion Klonów legion poprzedzał Imperium Galaktyczne byli znani ze swojej odwagi, niekonwencjonalnej taktyki i lojalności wobec Republiki Galaktycznej. ]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "defibrillator_advanced", "med_kit_advanced", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "surrender_animation_swep", "comlink_swep", "hololink_swep", "arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash"},
@@ -456,7 +456,7 @@ TEAM_MED501 = DarkRP.createJob("Medyk 501th", {
 TEAM_PIL501 = DarkRP.createJob("Pilot 501th", {
     color = Color(163, 0, 14, 255),
     model = {
-        "models/jajoff/sps/501/tc13j/pilot.mdl",
+        "models/jajoff/sps/501/pilot.mdl",
     },
     description = [[Batalion Klonów legion poprzedzał Imperium Galaktyczne byli znani ze swojej odwagi, niekonwencjonalnej taktyki i lojalności wobec Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep, surrender_animation_swep, comlink_swep", "hololink_swep, arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash", "jet_mk1"},
@@ -473,7 +473,7 @@ TEAM_PIL501 = DarkRP.createJob("Pilot 501th", {
 TEAM_HEV501 = DarkRP.createJob("Heavy 501th", {
     color = Color(163, 0, 14, 255),
     model = {
-        "models/jajoff/sps/501/tc13j/heavy.mdl",
+        "models/jajoff/sps/501/heavy.mdl",
     },
     description = [[Batalion Klonów legion poprzedzał Imperium Galaktyczne byli znani ze swojej odwagi, niekonwencjonalnej taktyki i lojalności wobec Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "rw_sw_rps6", "rw_sw_z6", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "surrender_animation_swep", "comlink_swep", "hololink_swep", "arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash"},
@@ -490,7 +490,7 @@ TEAM_HEV501 = DarkRP.createJob("Heavy 501th", {
 TEAM_RECO501 = DarkRP.createJob("Rekrut oddziału 501th", {
     color = Color(163, 0, 14, 255),
     model = {
-        "models/jajoff/sps/501/tc13j/trooper.mdl",
+        "models/jajoff/sps/501/trooper.mdl",
     },
     description = [[Batalion Klonów legion poprzedzał Imperium Galaktyczne byli znani ze swojej odwagi, niekonwencjonalnej taktyki i lojalności wobec Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep, surrender_animation_swep, comlink_swep", "hololink_swep, arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash", "jet_mk1"},
@@ -507,7 +507,7 @@ TEAM_RECO501 = DarkRP.createJob("Rekrut oddziału 501th", {
 TEAM_OFC501 = DarkRP.createJob("Oficer 501th", {
     color = Color(163, 0, 14, 255),
     model = {
-        "models/jajoff/sps/501/tc13j/instructor.mdl",
+        "models/jajoff/sps/501/instructor.mdl",
     },
     description = [[Batalion Klonów legion poprzedzał Imperium Galaktyczne byli znani ze swojej odwagi, niekonwencjonalnej taktyki i lojalności wobec Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep, surrender_animation_swep, comlink_swep", "hololink_swep, arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash", "jet_mk1"},
@@ -524,7 +524,7 @@ TEAM_OFC501 = DarkRP.createJob("Oficer 501th", {
 TEAM_OFW501 = DarkRP.createJob("Oficer wykonawczy 501th", {
     color = Color(163, 0, 14, 255),
     model = {
-        "models/jajoff/sps/501/tc13j/officer_instructor.mdl",
+        "models/jajoff/sps/501/instructor.mdl",
     },
     description = [[Batalion Klonów legion poprzedzał Imperium Galaktyczne byli znani ze swojej odwagi, niekonwencjonalnej taktyki i lojalności wobec Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep, surrender_animation_swep, comlink_swep", "hololink_swep, arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash", "jet_mk1"},
@@ -541,7 +541,7 @@ TEAM_OFW501 = DarkRP.createJob("Oficer wykonawczy 501th", {
 TEAM_DOW501 = DarkRP.createJob("Rex", {
     color = Color(163, 0, 14, 255),
     model = {
-        "models/player/test/rex.mdl",
+        "models/tfa/comm/gg/pm_sw_republiccommando.mdl",
     },
     description = [[Batalion Klonów legion poprzedzał Imperium Galaktyczne byli znani ze swojej odwagi, niekonwencjonalnej taktyki i lojalności wobec Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep, surrender_animation_swep, comlink_swep", "hololink_swep, arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash", "jet_mk1"},
@@ -558,7 +558,7 @@ TEAM_DOW501 = DarkRP.createJob("Rex", {
 TEAM_OFH501 = DarkRP.createJob("Oficer heavy 501th", {
     color = Color(163, 0, 14, 255),
     model = {
-        "models/jajoff/sps/501/tc13j/officer_heavy.mdl",
+        "models/jajoff/sps/501/officer_heavy.mdl",
     },
     description = [[Batalion Klonów legion poprzedzał Imperium Galaktyczne byli znani ze swojej odwagi, niekonwencjonalnej taktyki i lojalności wobec Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "rw_sw_rps6", "rw_sw_z6", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "surrender_animation_swep", "comlink_swep", "hololink_swep", "arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash"},
@@ -575,7 +575,7 @@ TEAM_OFH501 = DarkRP.createJob("Oficer heavy 501th", {
 TEAM_OFP501 = DarkRP.createJob("Oficer pilot 501th", {
     color = Color(163, 0, 14, 255),
     model = {
-        "models/jajoff/sps/501/tc13j/officer_pilot.mdl",
+        "models/jajoff/sps/501/officer_pilot.mdl",
     },
     description = [[Batalion Klonów legion poprzedzał Imperium Galaktyczne byli znani ze swojej odwagi, niekonwencjonalnej taktyki i lojalności wobec Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep, surrender_animation_swep, comlink_swep", "hololink_swep, arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash", "jet_mk1"},
@@ -592,7 +592,7 @@ TEAM_OFP501 = DarkRP.createJob("Oficer pilot 501th", {
 TEAM_OFM501 = DarkRP.createJob("Oficer medyk 501th", {
     color = Color(163, 0, 14, 255),
     model = {
-        "models/jajoff/sps/501/tc13j/Officer_medic.mdl",
+        "models/jajoff/sps/501/Officer_medic.mdl",
     },
     description = [[Batalion Klonów legion poprzedzał Imperium Galaktyczne byli znani ze swojej odwagi, niekonwencjonalnej taktyki i lojalności wobec Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "defibrillator_advanced", "med_kit_advanced", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "surrender_animation_swep", "comlink_swep", "hololink_swep", "arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash"},
@@ -609,7 +609,7 @@ TEAM_OFM501 = DarkRP.createJob("Oficer medyk 501th", {
 TEAM_ARC501 = DarkRP.createJob("ARC 501th", {
     color = Color(163, 0, 14, 255),
     model = {
-        "models/jajoff/sps/501/tc13j/arc.mdl",
+        "models/jajoff/sps/501/arc.mdl",
     },
     description = [[Batalion Klonów legion poprzedzał Imperium Galaktyczne byli znani ze swojej odwagi, niekonwencjonalnej taktyki i lojalności wobec Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "surrender_animation_swep", "comlink_swep", "hololink_swep, arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash"},
@@ -644,7 +644,6 @@ TEAM_AHSOKA501 = DarkRP.createJob("Ahsoka Tano", {
 TEAM_ANAKIN501 = DarkRP.createJob("Anakin Skywalker", {
     color = Color(163, 0, 14, 255),
     model = {
-        "models/tfa/comm/pm_sw_anakin_skywalker.mdl",
 		"models/tfa/comm/gg/pm_sw_anakin_v2.mdl",
     },
     description = [[Jedi]],
@@ -883,7 +882,7 @@ TEAM_ARCCG = DarkRP.createJob("ARC CG", {
 TEAM_DOW41 = DarkRP.createJob("Dowódca 41ST", {
     color = Color(214, 203, 0, 255),
     model = {
-        "models/salty/TC13-41stCMD.mdl",
+        "models/player/gideon/greencompany/draa/41stgc_draa.mdl",
     },
     description = [[41. Korpus Elitarny, znany po prostu jako Elite Corps, jest korpusem wojskowym Wielkiej Armii Republiki.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep, surrender_animation_swep, comlink_swep", "hololink_swep, arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash", "jet_mk1"},
@@ -900,7 +899,7 @@ TEAM_DOW41 = DarkRP.createJob("Dowódca 41ST", {
 TEAM_OOO41 = DarkRP.createJob("Oficer wykonawczy 41ST", {
     color = Color(101, 140, 0, 255),
     model = {
-        "models/salty/TC13-41stOfficer.mdl",
+        "models/player/gideon/greencompany/trooper/41stgc_scout_trooper.mdl",
     },
     description = [[41. Korpus Elitarny, znany po prostu jako Elite Corps, jest korpusem wojskowym Wielkiej Armii Republiki.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep, surrender_animation_swep, comlink_swep", "hololink_swep, arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash", "jet_mk1"},
@@ -985,7 +984,7 @@ TEAM_ARC41 = DarkRP.createJob("ARC 41ST", {
 TEAM_DWECP41 = DarkRP.createJob("Dowódca Elite Corp 41ST", {
     color = Color(101, 140, 0, 255),
     model = {
-        "models/salty/TC13-41ImproccoCompany.mdl",
+        "models/player/gideon/greencompany/arc/41stgc_arc.mdl",
     },
     description = [[41. Korpus Elitarny, znany po prostu jako Elite Corps, jest korpusem wojskowym Wielkiej Armii Republiki.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "defibrillator_advanced", "med_kit_advanced", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "surrender_animation_swep", "comlink_swep", "hololink_swep", "arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash"},
@@ -1002,7 +1001,7 @@ TEAM_DWECP41 = DarkRP.createJob("Dowódca Elite Corp 41ST", {
 TEAM_WEACP41 = DarkRP.createJob("Elite Corp 41ST", {
     color = Color(101, 140, 0, 255),
     model = {
-        "models/salty/TC13-41stEliteCorps.mdl",
+        "models/player/gideon/greencompany/gree/41stgc_gree.mdl",
     },
     description = [[41. Korpus Elitarny, znany po prostu jako Elite Corps, jest korpusem wojskowym Wielkiej Armii Republiki.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "defibrillator_advanced", "med_kit_advanced", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "surrender_animation_swep", "comlink_swep", "hololink_swep", "arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash"},
@@ -1138,9 +1137,7 @@ TEAM_DOWTRERC = DarkRP.createJob("Dowódca RC", {
 TEAM_DOW = DarkRP.createJob("Dowództwo", {
     color = Color(105, 105, 105, 255),
     model = {
-        "models/jajoff/sps/custom/tc13j/tobisimp.mdl",
-        "models/jajoff/sps/custom/tc13j/major_niesmiesznow.mdl",
-		"models/jajoff/sps/custom/tc13j/trol.mdl",
+        "models/salty/tc13-teeth.mdl",
     },
     description = [[Zarządza wszystkim]],
     weapons = {"defuse_kit", "pe_target_marker", "stunstick", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "weapon_cuff_elastic", "weapon_bactainjector", "weapon_bactanade", "jet_mk1", "rw_sw_stun_e11", "rw_sw_dual_dc17s", "alydus_fortificationbuildertablet", "alydus_fusioncutter"},
@@ -1208,7 +1205,7 @@ TEAM_DPODPUL = DarkRP.createJob("PodPułkownik", {
 TEAM_YODA = DarkRP.createJob("Yoda", {
     color = Color(0, 145, 143, 255),
     model = {
-        "models/tfa/comm/gg/pm_sw_yoda.mdl",
+        "models/player/b4p/b4p_yoda.mdl",
     },
     description = [[Jedi]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -1312,7 +1309,7 @@ TEAM_ADIMUD = DarkRP.createJob("Ki-Adi-Mundi", {
 TEAM_TIIN = DarkRP.createJob("Saesee Tiin", {
     color = Color(0, 145, 143, 255),
     model = {
-        "models/cultist_kun/sw/saesee_tiin.mdl",
+        "models/tfa/comm/gg/pm_sw_aayala.mdl",
     },
     description = [[Jedi]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
@@ -1363,7 +1360,7 @@ TEAM_MAC187 = DarkRP.createJob("Mace Windu 187th", {
 TEAM_DZIAL187 = DarkRP.createJob("Działonowy 187th", {
     color = Color(98, 0, 128, 255),
     model = {
-        "models/player/gingers_187th_trooper/gingers_187th_trooper_2.mdl",
+        "models/player/ricky/dg/187th/ricky_187thcannon.mdl",
     },
     description = [[187. Legion, znany również jako Batalion Ataku Mace'a Windu, był legionem elitarnych żołnierzy-klonów]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "rw_sw_rps6", "rw_sw_z6", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "surrender_animation_swep", "comlink_swep", "hololink_swep", "arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash"},
@@ -1380,7 +1377,7 @@ TEAM_DZIAL187 = DarkRP.createJob("Działonowy 187th", {
 TEAM_KIER187 = DarkRP.createJob("Kierowca 187th", {
     color = Color(98, 0, 128, 255),
     model = {
-        "models/player/gingers_187th_aerial_recon/gingers_187th_aerial_recon.mdl",
+        "models/player/ricky/dg/187th/ricky_187thlaw.mdl",
     },
     description = [[187. Legion, znany również jako Batalion Ataku Mace'a Windu, był legionem elitarnych żołnierzy-klonów]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "rw_sw_rps6", "rw_sw_z6", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "surrender_animation_swep", "comlink_swep", "hololink_swep", "arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash"},
@@ -1397,7 +1394,7 @@ TEAM_KIER187 = DarkRP.createJob("Kierowca 187th", {
 TEAM_TROPR187 = DarkRP.createJob("Troper 187th", {
     color = Color(98, 0, 128, 255),
     model = {
-        "models/player/gingers_187th_trooper/gingers_187th_trooper.mdl",
+        "models/player/ricky/dg/187th/ricky_187thaerialtrooper.mdl",
     },
     description = [[187. Legion, znany również jako Batalion Ataku Mace'a Windu, był legionem elitarnych żołnierzy-klonów]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "rw_sw_rps6", "rw_sw_z6", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "surrender_animation_swep", "comlink_swep", "hololink_swep", "arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash"},
@@ -1414,7 +1411,7 @@ TEAM_TROPR187 = DarkRP.createJob("Troper 187th", {
 TEAM_DOWEU187 = DarkRP.createJob("Dowódca 187th", {
     color = Color(98, 0, 128, 255),
     model = {
-        "models/player/gingers_187th_com_airborne/gingers_187th_com_airborne.mdl",
+        "models/player/ricky/dg/187th/ricky_187thcommander.mdl",
     },
     description = [[187. Legion, znany również jako Batalion Ataku Mace'a Windu, był legionem elitarnych żołnierzy-klonów]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "rw_sw_rps6", "rw_sw_z6", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "surrender_animation_swep", "comlink_swep", "hololink_swep", "arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash"},
@@ -1431,7 +1428,7 @@ TEAM_DOWEU187 = DarkRP.createJob("Dowódca 187th", {
 TEAM_DOF187 = DarkRP.createJob("Oficer 187th", {
     color = Color(98, 0, 128, 255),
     model = {
-        "models/player/gingers_187th_lieutenant/gingers_187th_lieutenant.mdl",
+        "models/player/ricky/dg/187th/ricky_187thofficer.mdl",
     },
     description = [[187. Legion, znany również jako Batalion Ataku Mace'a Windu, był legionem elitarnych żołnierzy-klonów]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "rw_sw_rps6", "rw_sw_z6", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "surrender_animation_swep", "comlink_swep", "hololink_swep", "arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash"},
@@ -1448,7 +1445,7 @@ TEAM_DOF187 = DarkRP.createJob("Oficer 187th", {
 TEAM_INXY187 = DarkRP.createJob("Inżynier 187th", {
     color = Color(98, 0, 128, 255),
     model = {
-        "models/player/gingers_187th_engineer/gingers_187th_engineer.mdl",
+        "models/player/ricky/dg/187th/ricky_187thct.mdl",
     },
     description = [[187. Legion, znany również jako Batalion Ataku Mace'a Windu, był legionem elitarnych żołnierzy-klonów]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "rw_sw_rps6", "rw_sw_z6", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "surrender_animation_swep", "comlink_swep", "hololink_swep", "arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash"},
@@ -1465,7 +1462,7 @@ TEAM_INXY187 = DarkRP.createJob("Inżynier 187th", {
 TEAM_IJJT187 = DarkRP.createJob("JetTroper 187th", {
     color = Color(98, 0, 128, 255),
     model = {
-        "models/player/gingers_187th_jet/gingers_187th_jet.mdl",
+        "models/player/ricky/dg/187th/ricky_187thglitch.mdl",
     },
     description = [[187. Legion, znany również jako Batalion Ataku Mace'a Windu, był legionem elitarnych żołnierzy-klonów]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "rw_sw_rps6", "rw_sw_z6", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "surrender_animation_swep", "comlink_swep", "hololink_swep", "arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash"},
@@ -1482,7 +1479,7 @@ TEAM_IJJT187 = DarkRP.createJob("JetTroper 187th", {
 TEAM_IMD187 = DarkRP.createJob("Medyk 187th", {
     color = Color(98, 0, 128, 255),
     model = {
-        "models/player/gingers_187th_medic/gingers_187th_medic.mdl",
+        "models/player/ricky/dg/187th/ricky_187thmedic.mdl",
     },
     description = [[187. Legion, znany również jako Batalion Ataku Mace'a Windu, był legionem elitarnych żołnierzy-klonów]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "defibrillator_advanced", "med_kit_advanced", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "surrender_animation_swep", "comlink_swep", "hololink_swep", "arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash"},
@@ -1519,7 +1516,7 @@ TEAM_D1B = DarkRP.createJob("B1", {
         "models/eng_co/pm_droid_b1_eng_co.mdl",
     },
     description = [[Podstawowe Siły Separatystów]],
-    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "dradio", "rw_sw_e5bx", "rw_sw_e5", "rw_sw_sg6"},
+    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "dradio", "rw_sw_e5bx", "rw_sw_e5", "rw_sw_sg6", "dradio"},
     command = "wb21b",
     max = 10,
     salary = GAMEMODE.Config.normalsalary,
@@ -1536,7 +1533,7 @@ TEAM_D1BOFC = DarkRP.createJob("Dowódca B1", {
         "models/eng_pvt/pm_droid_b1_eng_pvt.mdl",
     },
     description = [[Oficer Podstawowych Sił Separatystów]],
-    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "dradio", "rw_sw_dual_e5", "rw_sw_sg6"},
+    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "dradio", "rw_sw_dual_e5", "rw_sw_sg6", "dradio"},
     command = "wb21bocf",
     max = 1,
     salary = GAMEMODE.Config.normalsalary,
@@ -1553,7 +1550,7 @@ TEAM_DBX12 = DarkRP.createJob("BX", {
         "models/bx_pvt/pm_droid_bx_pvt.mdl",
     },
     description = [[Komandosi Separatystów]],
-    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "dradio", "rw_sw_e5bx", "rw_sw_e5s", "rw_sw_sg6", "rw_sw_e60r"},
+    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "dradio", "rw_sw_e5bx", "rw_sw_e5s", "rw_sw_sg6", "rw_sw_e60r", "dradio"},
     command = "wb2234234",
     max = 3,
     salary = GAMEMODE.Config.normalsalary,
@@ -1577,7 +1574,7 @@ TEAM_OFCDBX12 = DarkRP.createJob("Dowódca BX", {
         "models/bx_senate/pm_droid_bx_senate.mdl",
     },
     description = [[Oficer Komandosów Separatystów]],
-    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "dradio", "rw_sw_dual_e5bx", "rw_sw_e5s", "rw_sw_sg6", "rw_sw_e60r", "rw_sw_z4"},
+    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "dradio", "rw_sw_dual_e5bx", "rw_sw_e5s", "rw_sw_sg6", "rw_sw_e60r", "rw_sw_z4", "dradio"},
     command = "wb2343423",
     max = 1,
     salary = GAMEMODE.Config.normalsalary,
@@ -1601,7 +1598,7 @@ TEAM_D22 = DarkRP.createJob("B2", {
         "models/b2_pvt/pm_droid_b2_pvt.mdl",
     },
     description = [[Komandosi Separatystów]],
-    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "rw_sw_b2rp_blaster", "rw_sw_b2rp_rocket"},
+    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "rw_sw_b2rp_blaster", "rw_sw_b2rp_rocket", "dradio"},
     command = "b2223",
     max = 3,
     salary = GAMEMODE.Config.normalsalary,
@@ -1625,7 +1622,7 @@ TEAM_D22 = DarkRP.createJob("B1 Pilot", {
         "models/blue_co/pm_droid_b1_pilot_co.mdl",
     },
     description = [[Komandosi Separatystów]],
-    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "rw_sw_se14", "alydus_fusioncutter"},
+    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "rw_sw_se14", "alydus_fusioncutter", "dradio"},
     command = "b22223242",
     max = 3,
     salary = GAMEMODE.Config.normalsalary,
@@ -1649,7 +1646,7 @@ TEAM_OBD22 = DarkRP.createJob("Dowódca B2", {
         "models/b2_co/pm_droid_b2_co.mdl",
     },
     description = [[Oficer Komandosów Separatystów]],
-    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "rw_sw_b2rp_blaster", "rw_sw_b2rp_rocket"},
+    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "rw_sw_b2rp_blaster", "rw_sw_b2rp_rocket", "dradio"},
     command = "wbd225665",
     max = 1,
     salary = GAMEMODE.Config.normalsalary,
@@ -1673,7 +1670,7 @@ TEAM_OFCDBX12 = DarkRP.createJob("Droid Taktyczny", {
         "models/super_tactical_stuxnet/pm_droid_tactical_stuxnet.mdl",
     },
     description = [[Taktyczne siły Separatystów]],
-    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "dradio", "surrender_animation_swep", "cross_arms_infront_swep", "cross_arms_swep", "hololink_swep"},
+    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "dradio", "surrender_animation_swep", "cross_arms_infront_swep", "cross_arms_swep", "hololink_swep", "dradio"},
     command = "wb23423234",
     max = 2,
     salary = GAMEMODE.Config.normalsalary,
@@ -1690,7 +1687,7 @@ TEAM_DROIDEKA = DarkRP.createJob("Droidek", {
         "models/player/LGN/Droideka/Droid.mdl",
     },
     description = [[Podstawowe Siły Separatystów]],
-    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "rw_sw_droideka", "weapon_shield_activator"},
+    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "rw_sw_droideka", "weapon_shield_activator", "dradio"},
     command = "wb2sdasd1b",
     max = 3,
     salary = GAMEMODE.Config.normalsalary,
@@ -1707,9 +1704,28 @@ TEAM_DROIDEKASNIP = DarkRP.createJob("Droidek Snajper", {
         "models/player/LGN/Droideka/Droid.mdl",
     },
     description = [[Podstawowe Siły Separatystów]],
-    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "rw_sw_droideka_sniper"},
+    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "rw_sw_droideka_sniper", "dradio"},
     command = "wb2sdasd1bdsf",
-    max = 3,
+    max = 2,
+    salary = GAMEMODE.Config.normalsalary,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Separatyści",
+})
+
+TEAM_DMAGMAGUARD = DarkRP.createJob("Magma Guard", {
+    color = Color(161, 46, 0, 255),
+    model = {
+        "models/tfa/comm/gg/pm_sw_magna_guard_combined.mdl",
+		"models/tfa/comm/gg/pm_sw_magna_guard_season4.mdl",
+		"models/tfa/comm/gg/pm_sw_magna_guard_trainer.mdl",
+    },
+    description = [[Podstawowe Siły Separatystów]],
+    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "dradio"},
+    command = "wmagmauard",
+    max = 4,
     salary = GAMEMODE.Config.normalsalary,
     admin = 0,
     vote = false,
