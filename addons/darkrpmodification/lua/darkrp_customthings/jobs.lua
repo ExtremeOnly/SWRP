@@ -541,7 +541,7 @@ TEAM_OFW501 = DarkRP.createJob("Oficer wykonawczy 501th", {
 TEAM_DOW501 = DarkRP.createJob("Rex", {
     color = Color(163, 0, 14, 255),
     model = {
-        "models/tfa/comm/gg/pm_sw_republiccommando.mdl",
+        "models/player/gideon/501st/501st_rex/501st_rex.mdl",
     },
     description = [[Batalion Klonów legion poprzedzał Imperium Galaktyczne byli znani ze swojej odwagi, niekonwencjonalnej taktyki i lojalności wobec Republiki Galaktycznej.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep, surrender_animation_swep, comlink_swep", "hololink_swep, arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash", "jet_mk1"},
@@ -880,7 +880,7 @@ TEAM_ARCCG = DarkRP.createJob("ARC CG", {
 })
 --41ST--
 TEAM_DOW41 = DarkRP.createJob("Dowódca 41ST", {
-    color = Color(214, 203, 0, 255),
+    color = Color(101, 140, 0, 255),
     model = {
         "models/player/gideon/greencompany/draa/41stgc_draa.mdl",
     },
@@ -938,23 +938,6 @@ TEAM_ZW41 = DarkRP.createJob("Zwiadowca 41ST", {
     description = [[41. Korpus Elitarny, znany po prostu jako Elite Corps, jest korpusem wojskowym Wielkiej Armii Republiki.]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep, surrender_animation_swep, comlink_swep", "hololink_swep, arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash", "jet_mk1"},
     command = "zwid41",
-    max = 1,
-    salary = GAMEMODE.Config.normalsalary,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "41st",
-})
-
-TEAM_PL41 = DarkRP.createJob("Pilot 41ST", {
-    color = Color(101, 140, 0, 255),
-    model = {
-        "models/jajoff/sps/327/tc13j/engineer.mdl",
-    },
-    description = [[41. Korpus Elitarny, znany po prostu jako Elite Corps, jest korpusem wojskowym Wielkiej Armii Republiki.]],
-    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
-    command = "pil41",
     max = 1,
     salary = GAMEMODE.Config.normalsalary,
     admin = 0,
@@ -1048,57 +1031,6 @@ TEAM_BAR41 = DarkRP.createJob("Barriss Offee", {
     candemote = false,
     category = "41st",
 })
--- 91 ST --
-TEAM_MAC91 = DarkRP.createJob("Mace Windu", {
-    color = Color(101, 140, 0, 255),
-    model = {
-        "models/player/mace/mace.mdl",
-    },
-    description = [[Jedi]],
-    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
-    command = "wind91",
-    max = 1,
-    salary = GAMEMODE.Config.normalsalary,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "91st",
-})
-
-TEAM_ADI91 = DarkRP.createJob("Adi Gallia", {
-    color = Color(101, 140, 0, 255),
-    model = {
-        "models/tfa/comm/gg/pm_sw_adigallia.mdl",
-    },
-    description = [[Jedi]],
-    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
-    command = "gallia91",
-    max = 1,
-    salary = GAMEMODE.Config.normalsalary,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "91st",
-})
-
-TEAM_STASS91 = DarkRP.createJob("Stass Allie 91", {
-    color = Color(101, 140, 0, 255),
-    model = {
-        "models/jajoff/sps/327/tc13j/engineer.mdl",
-    },
-    description = [[Jedi]],
-    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "rw_sw_rps6", "rw_sw_z6", "rw_sw_dc15a", "rw_sw_dc15s", "rw_sw_dc17", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "surrender_animation_swep", "comlink_swep", "hololink_swep", "arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep", "rw_sw_nade_thermal", "rw_sw_nade_incendiary", "rw_sw_nade_impact", "rw_sw_nade_dioxis", "rw_sw_nade_flash"},
-    command = "allie91",
-    max = 1,
-    salary = GAMEMODE.Config.normalsalary,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "91st",
-})
 --RC--
 TEAM_TRERC = DarkRP.createJob("Trener RC", {
     color = Color(133, 73, 0, 255),
@@ -1154,7 +1086,7 @@ TEAM_DOW = DarkRP.createJob("Dowództwo", {
 TEAM_DGEN = DarkRP.createJob("Generał", {
     color = Color(105, 105, 105, 255),
     model = {
-        "models/salty/tc13-grandayen.mdl",
+        "models/jajoff/sps/custom/tc13j/goldie.mdl",
     },
     description = [[Zarządza wszystkim]],
     weapons = {"rw_sw_westarm5", "rw_sw_dual_dc17s", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "surrender_animation_swep", "comlink_swep", "hololink_swep", "arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep"},
@@ -1171,7 +1103,7 @@ TEAM_DGEN = DarkRP.createJob("Generał", {
 TEAM_DPUL = DarkRP.createJob("Pułkownik", {
     color = Color(105, 105, 105, 255),
     model = {
-        "models/salty/tc13-kwehs.mdl",
+        "models/salty/tc13marshalcommander.mdl",
     },
     description = [[Zarządza wszystkim]],
     weapons = {"rw_sw_westarm5", "rw_sw_dual_dc17s", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "surrender_animation_swep", "comlink_swep", "hololink_swep", "arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep"},
@@ -1188,7 +1120,7 @@ TEAM_DPUL = DarkRP.createJob("Pułkownik", {
 TEAM_DPODPUL = DarkRP.createJob("PodPułkownik", {
     color = Color(105, 105, 105, 255),
     model = {
-        "models/salty/tc13-junior.mdl",
+        "models/helios/sigmat2a2.mdl",
     },
     description = [[Zarządza wszystkim]],
     weapons = {"rw_sw_westarm5", "rw_sw_dual_dc17s", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "surrender_animation_swep", "comlink_swep", "hololink_swep", "arms_behindhead_swep", "ready_arms_swep", "think_arms_swep", "typing_animation_swep"},
@@ -1219,6 +1151,23 @@ TEAM_YODA = DarkRP.createJob("Yoda", {
     category = "Jedi",
 })
 
+TEAM_ADI91 = DarkRP.createJob("Adi Gallia", {
+    color = Color(0, 145, 143, 255),
+    model = {
+        "models/tfa/comm/gg/pm_sw_adigallia.mdl",
+    },
+    description = [[Jedi]],
+    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep"},
+    command = "gallia91",
+    max = 1,
+    salary = GAMEMODE.Config.normalsalary,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Jedi",
+})
+
 TEAM_KENOBI = DarkRP.createJob("Obi-Wan Kenobi", {
     color = Color(0, 145, 143, 255),
     model = {
@@ -1239,7 +1188,7 @@ TEAM_KENOBI = DarkRP.createJob("Obi-Wan Kenobi", {
 TEAM_STAS = DarkRP.createJob("Stass Allie", {
     color = Color(0, 145, 143, 255),
     model = {
-        "models/jajoff/sps/327/tc13j/arc.mdl",
+        "models/tfa/comm/gg/pm_sw_adigallia.mdl",
         "models/jajoff/sps/327/tc13j/jedi.mdl",
     },
     description = [[Jedi]],
@@ -1274,7 +1223,7 @@ TEAM_KIT = DarkRP.createJob("Kit Fisto", {
 TEAM_COLE = DarkRP.createJob("Coleman Kcaj", {
     color = Color(0, 145, 143, 255),
     model = {
-        "models/jajoff/sps/327/tc13j/arc.mdl",
+        "models/player/jedi/trandoshan.mdl",
         "models/jajoff/sps/327/tc13j/jedi.mdl",
     },
     description = [[Jedi]],
@@ -1341,7 +1290,7 @@ TEAM_PLO = DarkRP.createJob("Plo Koon", {
 })
 --187--
 TEAM_MAC187 = DarkRP.createJob("Mace Windu 187th", {
-    color = Color(214, 203, 0, 255),
+    color = Color(98, 0, 128, 255),
     model = {
         "models/player/mace/mace.mdl",
     },
@@ -1513,7 +1462,7 @@ TEAM_ICT = DarkRP.createJob("CT", {
 TEAM_D1B = DarkRP.createJob("B1", {
     color = Color(161, 46, 0, 255),
     model = {
-        "models/eng_co/pm_droid_b1_eng_co.mdl",
+        "models/b1_inf/pm_droid_b1_inf_pvt.mdl",
     },
     description = [[Podstawowe Siły Separatystów]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "dradio", "rw_sw_e5bx", "rw_sw_e5", "rw_sw_sg6", "dradio"},
@@ -1530,7 +1479,7 @@ TEAM_D1B = DarkRP.createJob("B1", {
 TEAM_D1BOFC = DarkRP.createJob("Dowódca B1", {
     color = Color(161, 46, 0, 255),
     model = {
-        "models/eng_pvt/pm_droid_b1_eng_pvt.mdl",
+        "models/b1_inf_co/pm_droid_b1_inf_co.mdl",
     },
     description = [[Oficer Podstawowych Sił Separatystów]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "dradio", "rw_sw_dual_e5", "rw_sw_sg6", "dradio"},
@@ -1548,6 +1497,13 @@ TEAM_DBX12 = DarkRP.createJob("BX", {
     color = Color(161, 46, 0, 255),
     model = {
         "models/bx_pvt/pm_droid_bx_pvt.mdl",
+		"models/jajoff/sps/CGA/tc13j/trooper.mdl",
+		"models/jajoff/sps/501/tc13j/trooper.mdl",
+		"models/jajoff/sps/327/tc13j/trooper.mdl",
+		"models/player/gideon/greencompany/trooper/41stgc_scout_trooper.mdl",
+		"models/jajoff/sps/myt/tc13j/trooper.mdl",
+		"models/jajoff/sps/cta/tc13j/trooper.mdl",
+		"models/player/ricky/dg/187th/ricky_187thaerialtrooper.mdl",
     },
     description = [[Komandosi Separatystów]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "dradio", "rw_sw_e5bx", "rw_sw_e5s", "rw_sw_sg6", "rw_sw_e60r", "dradio"},
@@ -1571,7 +1527,14 @@ TEAM_DBX12 = DarkRP.createJob("BX", {
 TEAM_OFCDBX12 = DarkRP.createJob("Dowódca BX", {
     color = Color(161, 46, 0, 255),
     model = {
-        "models/bx_senate/pm_droid_bx_senate.mdl",
+        "models/bx_captain/pm_droid_bx_captain.mdl",
+		"models/jajoff/sps/CGA/tc13j/trooper.mdl",
+		"models/jajoff/sps/501/tc13j/trooper.mdl",
+		"models/jajoff/sps/327/tc13j/trooper.mdl",
+		"models/player/gideon/greencompany/trooper/41stgc_scout_trooper.mdl",
+		"models/jajoff/sps/myt/tc13j/trooper.mdl",
+		"models/jajoff/sps/cta/tc13j/trooper.mdl",
+		"models/player/ricky/dg/187th/ricky_187thaerialtrooper.mdl",
     },
     description = [[Oficer Komandosów Separatystów]],
     weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "dradio", "rw_sw_dual_e5bx", "rw_sw_e5s", "rw_sw_sg6", "rw_sw_e60r", "rw_sw_z4", "dradio"},
@@ -1735,39 +1698,7 @@ TEAM_DMAGMAGUARD = DarkRP.createJob("Magma Guard", {
 })
 
 --PRIV JOB--
-TEAM_GEN1 = DarkRP.createJob("Generał Grievous", {
-    color = Color(161, 46, 0, 255),
-    model = {
-        "models/tfa/comm/gg/pm_sw_grievous_nocloak.mdl",
-    },
-    description = [[Dowódca Konfederacji Systemów Niezależnych (Separatystów) (Praca: Cyan#0710)]],
-    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "weapon_lightsaber", "rw_sw_relbyk23", "dradio"},
-    command = "gengrivusdf",
-    max = 1,
-    salary = GAMEMODE.Config.normalsalary,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Priv job",
-})
 
-TEAM_DEZZ = DarkRP.createJob("AFA ARC Dezz", {
-    color = Color(161, 46, 0, 255),
-    model = {
-        "models/jajoff/sps/arc/tc13j/whites.mdl",
-    },
-    description = [[Jest to żołnierz republiki w jednostce AFA ARC (Praca filiorx yt#9706)]],
-    weapons = {"weapon_physcannon", "weapon_hands", "weapon_fists", "keys", "surrender_animation_swep", "jet_mk5", "rw_sw_dc17m", "rw_sw_westarm5", "rw_sw_shield_rep_dc17"},
-    command = "gafaarcdez",
-    max = 1,
-    salary = GAMEMODE.Config.normalsalary,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    candemote = false,
-    category = "Priv job",
-})
 
 ---TEAM_POLICE = DarkRP.createJob("Civil Protection", {
   --  color = Color(25, 25, 170, 255),
@@ -1994,7 +1925,7 @@ TEAM_MOD = DarkRP.createJob("Mod", {
     command = "Mody",
     max = 5,
     salary = 1000,
-    admin = 1,
+    admin = 0,
     vote = false,
     hasLicense = true,
     candemote = true,
